@@ -1,0 +1,114 @@
+/* for avoid static space in headers */
+*{
+  margin: 0;
+  padding: 0%;
+}
+/* for making backg color of header black */
+header{ 
+  background-color: black;
+/* for height adjust use em for width use px */
+  height: 8em;
+}
+/* for changing logo right ways from boarder */
+#logo{
+  margin-left: 10%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+/* for changing headers from left to right use float property */
+.nav{
+  float: right;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.nav a{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:white;
+  text-decoration: none;
+  border: 1px solid white;
+  /* to give spacing inside the box use padding */
+  padding: 10px;
+/* to give spacing between boxes use margin */
+  margin: 5px;
+}
+/* hover used when we place arrow on top of headers icons its colour changes  */
+.nav a:hover{
+ background-color: teal;
+ color: black;
+ transition: 0.5s ease-in-out;
+}
+/* for making full cover of background image */
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sidebar{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ color: white;
+ padding: 100px;
+}
+/* for making list bullets round to sqaure */
+.sidebar li{
+    list-style: square;
+    padding-bottom: 5px;
+}
+/* form */
+/* to move form to right side float used */
+.login{
+  float: right;
+  border: 2px solid red;
+  background-color: beige;
+  height: 15em;
+  margin-top: 5%;
+  margin-right: 2%;
+  padding: 30px;
+}
+/* for centralise the User Login  */
+.login h2{
+  text-align: center;
+}
+.login input{
+  height: 1.5em;
+}
+.login #login-button{
+  width: 100%;
+  color: white;
+  background-color: dodgerblue;
+  border: 1px solid dodgerblue;
+  height: 1.8em;
+}
+.container{
+  margin-top: 7%;
+  margin-left: 3%;
+  
+}
+.p-box{
+  border: 3px solid white;
+  /* here 4 contents which divided by 4 eqauls 25% and minus margin % */
+  width: 22%;
+  float:left;
+  margin-left: 10px;
+  height: 9em;
+  padding: 5px;
+  background-color: #ccc;
+  
+}
+.p-box h3{
+  text-align: center;
+}
+.p-box p{
+  line-height: 1.25em;
+  text-align: justify;
+}
+.p-box a {
+  text-decoration: none;
+  color: red;
+}
+/* footer */
+footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 1.5em;
+  margin-top: 20%;
+}
